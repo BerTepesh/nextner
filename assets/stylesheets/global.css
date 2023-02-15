@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.form {
+	max-width: 500px;
+	width: 100%;
+}
+
+.form__holder {
+	 margin-bottom: 10px;
+}
+
+.form__btns {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.btn {
+	color: #fff;
+	background-color: #000;
+	border-radius: 12px;
+	border: none;
+	padding: 10px 25px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn_second {
+	background-color: #979797;
+}
+
+.address {
+	margin-bottom: 30px;
+}
+
+.address__title {
+	font-family: sans-serif;
+}
+
+.address label {
+	font-family: sans-serif;
+	margin-bottom: 5px;
+	font-size: 14px;
+	display: block;
+	font-weight: bold;
+}
+
+.address__input {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 10px 25px;
+}
